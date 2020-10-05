@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<title>Euthanasia</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>2019 IGCSE<br>Global Perspectives</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Back to top</a>
+    <a href="#intro" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Who are we?</a>
+    <a href="#why" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Why is this an issue?</a>
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Statistics.</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Letter.</a>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Citations.</a>
+    <!--
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    -->
+
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-green w3-margin-right" onclick="w3_open()">☰</a>
+  <span style = "font-size: 75%;">2019 IGCSE Global Perspectives</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+
+
+
+  <!-- Intro -->
+  <div class="w3-container" style="margin-top:80px" id="intro">
+      <h1 style="font-size: 3em; font-family: Courier new">A Question of Euthanasia.</h1>
+
+      <hr>
+      <h1 class="w3-xxxlarge w3-text-green"><b>Who are we? </b></h1>
+      <hr style="width:50px;border:5px solid green" class="w3-round">
+      <p> Hi, we are a Hong Kong-based Y11 IGCSE Global Perspectives team aiming to spread awareness and to demonstrate a need for the legalization of euthanasia. Currently, in Hong Kong, the law states that active euthanasia is completely illegal and unethical under all circumstances, and we would like to provide our opinion on this issue.
+          </p>
+    </div>
+
+
+    <div class="w3-container" style="margin-top:80px" id="why">
+
+        <h1 class="w3-xxxlarge w3-text-green"><b>Why is this an issue? </b></h1>
+        <hr style="width:50px;border:5px solid green" class="w3-round">
+        <p> Euthanasia is the action of intentionally ending a life due to a terminal illness or to relieve pain and suffering. In general it could be split into two types:<br><br>
+
+Passive Euthanasia: The act of stopping life sustaining medication<br>
+Active Euthanasia: The act of taking one's life using lethal substances/means<br><br>
+
+Euthanasia has been an increasingly controversial topic worldwide due to its growing prevalence. According to a biennial report of Belgian Commission on Euthanasia Control, the number of euthanasia deaths increase by 27% annually. Currently, many countries officially legalized euthanasia including Belgium, Canada, Colombia, Luxembourg, The Netherlands, Switzerland, and six US States (California, Colorado, Montana, Oregon, Vermont and Washington State). However, there is still much debate over the legalisation of euthanasia, which is why we would like to provide our opinion on this issue, specifically, regarding the situation in Hong Kong.
+
+            </p>
+      </div>
+
+
+
+
+
+
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+
+
+    <h1 class="w3-xxxlarge w3-text-green"><b>Statistics.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p>A cross-cultural survey (46 total respondents) was conducted in order to gather opinions from a wide range of different perspectives. Definitions of technical terms were included to ensure the integrity of the data. </p>
+    <p><a href = "https://docs.google.com/spreadsheets/d/1yE0-fRSeUdASAxbJQSDbdO891p7sODBWsz3RJyG5nY0/edit?usp=sharing" target="_blank" style = "color: #3498eb">Link</a> to spreadsheet with survey results.</p>
+    <p>Click on images for details:</p>
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="3.png" style="width:75%" onclick="onClick(this)"
+       alt="Our survey results showed that ones moral standpoint on euthanasia is largely independent of their religious beliefs and nationality, as no trend could be observed. Overall, an overwhelming majority of respondents believes that euthanasia is ethical.">
+      <img src="4.png" style="width:75%" onclick="onClick(this)"
+      alt="A very significant number of people(37%) chose to not externally influence a loved one's decision, which suggests that there is a belief that the choice is up to the patient, and to die or live should be ultimately decided by the individual. However, overall a minority of people chose to encourage euthanasia, with 4.3% choosing passive euthanasia and 17.4 choosing active euthanasia.">
+
+    </div>
+
+    <div class="w3-half">
+      <img src="1.png" style="width:75%" onclick="onClick(this)"
+      alt="Out of 46 responses, only one respondent's country has legalized euthanasia(green), however, we can see that, again, the majority would not object to such a law.">
+      <img src="2.png" style="width:75%" onclick="onClick(this)"
+      alt="The majority(58.7%) of respondents chose the option of active euthanasia, however, a significant percentage of responses(41.3%) also chose to take medication.">
+    </div>
+
+  <img src="5.png" style="width:35%; left: 25%; top: 50px; position: relative;" onclick="onClick(this)"
+  alt="After factoring in the loss of independence, an increased number of people chose active euthanasia(60.9%), as well as passive euthanasia(6.5%), however, there was still a large percentage of people who chose to continue receiving treatment(32.6%).">
+</div>
+  <!-- Modal for full size <i></i>mages on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Letter -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Letter.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p>Agree with our agenda and live in Hong Kong? <br>We have provided you with a way to take action. Below is a letter template that you can send to the Department of Health of Hong Kong. Simply copy and paste the information below into an email and sign your name at the bottom.
+    </p>
+    <div style="background-color: #EFF0F1">
+      To: <p style="display: inline;" id='p1' >cru@dh.gov.hk</p><input style="width: 2em; " type="image" onClick="copyToClipboard('p1')" src="copy.png" /><br><br>
+      Subject: <p style="display: inline;" id='p2' >Stance on Active Euthanasia</p><input style="width: 2em; " type="image" onClick="copyToClipboard('p2')" src="copy.png" />
+</div>
+<div style="background-color: #EFF0F1; margin-top: 1em;">
+  <p style="display: inline;" id='p3' >Dear Hong Kong Department of Health,<br><br>
+
+We are a Hong Kong-based Y11 IGCSE Global Perspectives team aiming to spread awareness and to demonstrate a need for the legalization of euthanasia. Currently, in Hong Kong, the law states that active euthanasia is completely illegal and unethical under all circumstances, and we would like to provide our opinion on this issue.We are aware that passive euthanasia (the act of stopping a patient’s life-sustaining medication under the circumstances that the patient is terminally ill, in a coma and mentally competent to make decisions) is currently legal in Hong Kong. However, our main incentive for supporting euthanasia is that it would result in a painless death. Passive euthanasia would not meet that requirement since stopping medication would lead to the patient feeling the full agony of the disease during his/her last days. We believe that we speak on behalf of the general population in that a death without pain should be provided at least as an alternative option to those suffering from terminal illnesses. <br><br>
+
+A survey was conducted in order to gather opinions from a wide range of different perspectives. It included definitions of professional terms to ensure the integrity of the data. As our survey was a cross-cultural inspection on the perspectives of many cultures and nationalities, we were able to gather information from a range of religions and backgrounds. Our survey results prove that not only does religion or nationality lack impact on stances on euthanasia, but even 92.1% of our survey participants found euthanasia to be ethical. When given the circumstance of suffering from a painful terminal illness, 65.8% of the respondents chose active euthanasia, and 81.6% would not object to the legislation of euthanasia. <br><br>
+
+In addition, when considering the wellbeing of their loved ones, many survey participants believed that loved ones suffering from a terminal illness have the right to choose whether they live or die. This indicates a belief that, ultimately, the choice of whether to live or die in the event of suffering should be left to the individual themselves; therefore this supports the need for active euthanasia to be open as a choice.<br><br>
+
+A student currently in their 4th year studying medicine in The University of Hong Kong (HKU) was also interviewed, in which he stated that the majority of people in the medical profession support euthanasia as it abides the 4 medical ethics: nonmaleficence, beneficience, justice and autonomy. Since euthanasia alleviates pain while staying within the boundaries of medical ethics, from a purely medical perspective euthanasia is very desirable.  <br><br>
+
+In our humble opinion, not only do our survey results support our perspective, but the majority of the medical industry also agree that euthanasia is ethical. Consequently, the Department of Health should consider making allowances to Active Euthanasia (within a set of regulations) in order to provide relief to those suffering from a terminal illness. <br><br>
+
+Regards,<br>
+Kylie, Audrey, and Vincent.<br><br>
+
+Signed, <br>
+(INSERT NAME HERE)<br>
+</p><input style="width: 2em; " type="image" onClick="copyToClipboard('p3')" src="copy.png" />
+    </div>
+  </div>
+  <!-- Citations -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Citations.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <a style = "font-size: 1.5em; color: #3498eb" href= "https://docs.google.com/document/d/1egkQHhXi9StXWdTkLrA5LtlTGZPRqXLOaCS-qZVdOuY/edit?usp=sharing" target="_blank"> Works cited list</a>
+  </div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powegreen by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+/****/
+function copyToClipboard(id) {
+      var from = document.getElementById(id);
+      var range = document.createRange();
+      window.getSelection().removeAllRanges();
+      range.selectNode(from);
+      window.getSelection().addRange(range);
+      document.execCommand('copy');
+      window.getSelection().removeAllRanges();
+      alert("Text copied to clipboard.")
+}
+
+</script>
+
+</body>
+</html>
